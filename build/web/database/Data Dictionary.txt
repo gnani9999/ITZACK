@@ -1,0 +1,19 @@
+
+create table course(instid varchar2(25),cid varchar2(25),cname varchar2(45),fee varchar2(25),dur varchar2(35),faculty varchar2(35));
+
+
+
+
+create table faculty(instid varchar2(25),fid varchar2(25),fname varchar2(45),qual varchar2(35),exp varchar2(35),langs varchar2(35));
+
+
+create table demo(instid varchar2(25),did varchar2(10),cname varchar2(35),time varchar2(35),demodate date);
+
+
+create table institute(instid varchar2(15),iname varchar2(35),ipwd varchar2(25),iaddr varchar2(100),iphn varchar2(25),estdate varchar2(25),status varchar2(25));
+
+
+create table feedback(fname varchar2(25),iname varchar2(25),feedback varchar2(150));
+
+
+create table student(stdid varchar2(25),fname varchar2(25),lname varchar2(25),uname varchar2(25),pwd varchar2(25),mobile varchar2(25),email varchar2(35),addr varchar2(100),qual varchar2(35),inst varchar2(35),pout varchar2(35),aggr varchar2(35));
